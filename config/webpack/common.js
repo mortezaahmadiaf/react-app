@@ -15,6 +15,10 @@ module.exports = {
         use: ["babel-loader"],
         exclude: /node_modules/,
       },
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
     ],
   },
   plugins: [new HtmlWebpackPlugin({ template: "../public/index.html" })],
