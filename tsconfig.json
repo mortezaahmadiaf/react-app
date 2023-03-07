@@ -26,6 +26,6 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true
   },
-  "include": ["src/","config/webpack/typings.d.ts"],
+  "include": ["src/**/*.ts","src/**/*.tsx","config/webpack/typings.d.ts"],
   "exclude": ["node_modules"]
 }
