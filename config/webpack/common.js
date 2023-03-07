@@ -23,6 +23,10 @@ module.exports = {
         test: /\.(scss|sass)$/,
         use: ["style-loader", "css-loader", "sass-loader"],
       },
+      {
+        test: /\.(jpe?g|png|gif|svg)$/i,
+        type: 'asset/resource',
+      },
     ],
   },
   plugins: [new HtmlWebpackPlugin({ template: "../public/index.html" })],
