@@ -9,6 +9,7 @@ module.exports = merge(commonConfig, {
     open: true, // open browser
     hot: true, // enable HMR on the server
     historyApiFallback: true, // fixes error 404-ish errors when using react router :see this SO question: https://stackoverflow.com/questions/43209666/react-router-v4-cannot-get-url
+    port:3000
   },
   devtool: "cheap-module-source-map",
   plugins: [new ReactRefreshPlugin()],

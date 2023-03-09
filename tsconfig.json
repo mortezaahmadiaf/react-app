@@ -17,15 +17,15 @@
     "checkJs": false,
     "baseUrl": "./",
     "paths": {
-      "app/*": ["src/*"],
-      "assets/*": ["src/assets/*"],
-      "components/*": ["src/components*"]
+      "app/*": ["./src/*"],
+      "assets/*": ["./src/assets/*"],
+      "components/*": ["./src/components/*"]
 
     },
     "importHelpers": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true
   },
-  "include": ["src/**/*.ts","src/**/*.tsx","config/webpack/typings.d.ts"],
+  "include": ["src/**/*","config/webpack/typings.d.ts"],
   "exclude": ["node_modules"]
 }
