@@ -11,7 +11,5 @@ root.render(<div className='test d-flex bg-dark text-white  gotham-Light-font'>
     
     src={image}
     />
-'d;lkjfg'dklfz lklkj'kl;;gdf ;lkdg;ldkf jhskldjgskldjkjsa kasjhdfklasj 
-
-    hello 
+font added with classname  gotham-Light-font and vazir-regular-font
 </div>);
