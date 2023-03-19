@@ -4,7 +4,7 @@ import {urls} from 'app/routes'
 
 import type { RootState } from '../../redux'
 import { useSelector, useDispatch } from 'react-redux'
-import { decrement, increment } from '../../redux/slice'
+import { decrement, increment } from '../../redux/slice/counter'
 
 export function Counter() {
   const count = useSelector((state: RootState) => state.counter.value)
