@@ -5,8 +5,9 @@ import './styles/index.scss'
 import {App} from './screens'
 import { store } from './redux'
 import { Provider } from 'react-redux'
+import {Localization} from './i18n'
 
 
 const appContainer = document.getElementById("root");
 const root = createRoot(appContainer);
-root.render( <Provider store={store}><App/>  </Provider>,);
+root.render( <Provider store={store}> <Localization> <App/> </Localization> </Provider>,);

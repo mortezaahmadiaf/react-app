@@ -1,2 +1,3 @@
 import counterReducer from './counter'
-export{counterReducer}
+import languageReducer from './language'
+export{counterReducer,languageReducer}
