@@ -1,3 +1,20 @@
-.test{
-    color: red;
+#root {
+  height: 100dvh !important;
+  width: 100dvw !important;
+  overflow-x: hidden;
+  direction: inherit;
+}
+
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  /* direction: inherit; */
+}
+
+.item-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
