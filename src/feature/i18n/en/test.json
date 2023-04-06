@@ -1,0 +1,12 @@
+{
+  "personalInfo": {
+    "firstName": "First Name : {{firstName}}",
+    "lastName": "Last Name : {{lastName}}"
+  },
+
+  "contactInfo": {
+    "email": "Email : {{email}}",
+    "address": "Address  : {{address}}"
+  },
+  "location": "Location : {{location}}"
+}
